@@ -1,12 +1,12 @@
 
 const counties = "AB AG AR B BC BH BN BR BT BV BZ CJ CL CS CT CV DB DJ GJ GL GR HD HR IF IL IS MH MM MS NT OT PH SB SJ SM SV TL TM TR VL VN VS".split(" ");
-const currentDay = 31;//new Date().getDate();
+const currentDay = 31;
 
 let root = document.documentElement;
 
 
 const loadData = function() {
-    fetch("/data.json")
+    fetch("https://radupetrica.github.io/covid-19.github.io/data.json")
         .then(res => res.json())
         .then(data => autoFill(data))
 }
