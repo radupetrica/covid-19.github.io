@@ -6,7 +6,7 @@ let root = document.documentElement;
 
 
 const loadData = function() {
-    fetch("http://localhost:8080/data.json")
+    fetch("/data.json")
         .then(res => res.json())
         .then(data => autoFill(data))
 }
