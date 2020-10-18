@@ -6,7 +6,7 @@ let root = document.documentElement;
 
 
 const loadData = function() {
-    fetch("/data.json")
+    fetch("/covid-19.github.io/data.json")
         .then(res => res.json())
         .then(data => autoFill(data))
 }
