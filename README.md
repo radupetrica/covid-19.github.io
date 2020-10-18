@@ -1,2 +1,4 @@
 # covid-19.github.io
-Covid Data
+## Cazuri zilnice in fiecare judet
+
+Date caszuri noi zilnice in fiecare Judet
