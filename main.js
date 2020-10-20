@@ -41,8 +41,8 @@ const autoFill = function(data) {
     })
 
 
-    let x = percentile(elements,0.5);
-    let x1 = percentile(elements.filter(o => o > x), 0.9975);
+    let x = 45;
+    let x1 = (max-min)/3 + x;
 
     root.style.setProperty("--rows", (currentDay+2));
     root.style.setProperty("--columns", (countiesWithData.length+1));
